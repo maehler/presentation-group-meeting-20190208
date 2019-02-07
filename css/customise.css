@@ -1,12 +1,16 @@
 .slidelink {
     position: absolute;
-    right: 20px;
-    top: 0;
+    right: 5px;
+    top: 3px;
     z-index: 10000;
+    opacity: 0.5;
 }
 
 .slidelink a {
-    font-size: 0.5em;
+    font-family: 'Source Sans Pro';
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
 }
 
 .twitterlink {

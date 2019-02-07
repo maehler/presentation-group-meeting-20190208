@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <title>reveal.js</title>
+        <title>AspLeaf GWAS</title>
 
         <link rel="stylesheet" href="css/reveal.css">
         <link rel="stylesheet" href="css/theme/maehler_dark.css">
@@ -30,15 +30,71 @@
         </script>
     </head>
     <body>
-        <div class="slidelink"><a href=""></a></div>
+        <div class="slidelink"><a href="http://bit.ly/groupmeeting-aspleaf">http://bit.ly/groupmeeting-aspleaf</a></div>
         <div class="twitterlink"><a href="https://twitter.com/nmaehler"><i class="fab fa-twitter"></i>@nmaehler</a></div>
         <div class="reveal">
             <div class="slides">
                 <section>
-                    <h1>Slide 1</h1>
+                    <h1>AspLeaf GWAS</h1>
+                    <p>
+                        Niklas Mähler<br>
+                        <small>Group meeting 2019-02-08</small>
+                    </p>
                 </section>
+
                 <section>
-                    <h1>Slide 2</h1>
+                    <img src="img/aspen_leaves2.jpg">
+                </section>
+
+                <section>
+                    <h2>GWAS data</h2>
+                    <ul>
+                        <li>4.5 million SNPs</li>
+                        <li>
+                            3 main leaf traits
+                            <ul>
+                                <li>Area</li>
+                                <li>Circularity</li>
+                                <li>Indent depth</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Data preparation</h2>
+                    <ul>
+                        <li>Best linear unbiased predictors (BLUPs)</li>
+                        <li>Convert VCF files to plink format</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Software</h2>
+                    <ul>
+                        <li>GEMMA for association mapping</li>
+                        <li>plink for data manipulation</li>
+                        <li>
+                            Working on an updated workflow
+                            <ul>
+                                <li>snakemake</li>
+                                <li>Better structure</li>
+                                <li>Better reproducibility</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <img src="img/figure_8.png">
+                </section>
+
+                <section>
+                    <img src="img/figure_9.png">
+                </section>
+                
+                <section>
+                    <img src="img/figure_10.png">
                 </section>
             </div>
         </div>
